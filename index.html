@@ -809,7 +809,7 @@ async function openAdmin(){
     if(!document.getElementById('f-date').value){ document.getElementById('f-date').value = new Date().toISOString().slice(0,10); }
     renderAdminList();
   } else {
-    gate.textContent = 'Admin access is limited to the site owner. If this is your site, open it from your own Claude account.';
+    gate.textContent = 'Admin access is limited to the site owner.';
   }
 }
 function route(){
